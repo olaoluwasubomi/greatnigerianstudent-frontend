@@ -76,7 +76,8 @@ const Home = () =>{
                 />
                 <h4 className="text-center text-4xl font-semibold lg:my-20 md:my-20 sm:my-10  lg:mx-auto md:mx-auto sm:mx-0 lg:px-0 md:px-0 sm:px-10 lg:w-2/5 md:w-2/5 sm:w-full sm:text-center sm:text-2xl md:text-3xl lg:text-4xl">Explore The Institution Of Your Choice And Learn About Them</h4>
                 <div className="my-10 flex items-center justify-between w-full lg:px-40 md:px-40 sm:px-10 lg:flex-row md:flex-col sm:flex-col">{data}</div>
-                <a href="#" className="block viewbg py-4 text-center text-white mx-auto font-bold rounded-full lg:w-1/6 md:w-1/6 sm:w-1/2">View all Institutions</a>
+                <Link className="block viewbg py-4 text-center text-white mx-auto font-bold rounded-full lg:w-1/6 md:w-1/6 sm:w-1/2" to="/institution">View all Institutions</Link>
+                {/* <a href="#" className="block viewbg py-4 text-center text-white mx-auto font-bold rounded-full lg:w-1/6 md:w-1/6 sm:w-1/2">View all Institutions</a> */}
             </div>
 
 
