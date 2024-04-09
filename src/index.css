@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+/* Font Families */
+.heading{
+    font-family:"Albert Sans", sans-serif;
+}
+.text{
+    font-family: "Poppins", sans-serif;
+}
+.bgcolor{
+    background-color:#006894;
+}
+.contactcolor{
+    color:#0E82B3;
+}
+
+.home{
+    background-image:url(/images/homebackground.png);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:cover;
+}
+
+@media screen and (max-width:1000px){
+    .home{
+        background-image:url(/images/Frame1224.png);
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size:cover;
+    }
+}
+.secondcolor{
+    color:#0E82B3;
+}
+.circle{
+    position:relative;
+    top:0;
+    bottom:0;
+    right:0;
+    left:1611px;
+}
+.inner1{
+    z-index:1;
+}
+.inner2{
+    z-index:-1;
+    top:255px;
+    /* left:-1px; */
+}
+.inner3{
+    left:316px;
+    bottom:0px;
+}
+.heading{
+    color:#025d83;
+}
+.viewbg{
+    background:#025d83;
+}
+.paragraph{
+    color:#7a7575;
+}
+.questionbg{
+    background:#01415c;
+}
+.footertext{
+    color:#d8d1d1;
+}
+.navcolor{
+    background:#006894;
+}
+body{
+    background:#FBFBFB;
+}
+.decline{
+    border:1px solid #006894;
+    color:#006894;
+}
+
+.nav-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+}
+.arrow1{
+    background:#c8e3f0;
+}
+.arrow2{
+    background:#006894;
+}
+@media screen and (max-width:950px){
+}
+.abooutbg{
+    background-color:#fbfbfb;
+}
+.datebg{
+    background:#e87d22;
+}
+
+.items:nth-child(1) h6{
+    padding-bottom:25px;
+}
+
+.courses{
+    display:block;
+}
+.coursescolor{
+    color:#d8d1d1
+}
+
+
+.readborder{
+    border-color:#0E82B3;
+}
