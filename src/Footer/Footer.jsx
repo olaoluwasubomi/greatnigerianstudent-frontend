@@ -76,7 +76,7 @@ const Footer = () =>{
                         <p className="text-xl font-bold text-white">Get in Touch</p>
                         <p className="footertext mt-2  text-lg">Get notified with our latest news</p>
 
-                        <form className="mt-2 flex items-center justify-center bg-white px-3 py-1 rounded-full">
+                        <form className="mt-2 flex items-center justify-center bg-white px-1 py-1 rounded-full w-full overflow-hidden">
                             <div className="flex items-center justiify-center gap-x-2 py-3 rounded-full">
                                 <MdOutlineEmail className="text-xl" />
                                 <input type="email" placeholder="Email" className="bg-transparent border-none outline-none"/>
